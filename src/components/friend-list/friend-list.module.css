@@ -1,0 +1,28 @@
+.itemFriend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.friend-list {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.online {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.offline {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
