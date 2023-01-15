@@ -6,13 +6,13 @@ export const TransactionHistory = ({transactions}) => {
     return (
         <table className={css.transactionHistory}>
   <thead>
-    <tr>
+                <tr className={css.tableName }>
       <th>Type</th>
       <th>Amount</th>
       <th>Currency</th>
     </tr>
             </thead>
-            <tbody>{
+            <tbody className={css.tbody }>{
                 transactions.map(transaction => (
                     <Transaction
                         key={transaction.id}
